@@ -1,0 +1,73 @@
+name<-"john"
+if(name=="john")
+{
+  print("True");
+}else
+{
+  print("false");
+}
+print("sagasga")
+
+floor(runif(1, 1, 7))
+newfunction()
+# Create a function without an argument.
+newfunction <- function() {
+  for(i in 1:5) {
+    print(i^2)
+  }
+}	
+
+# Call the function without supplying an argument.
+newfunction()
+
+  
+myList <-c(1,2,3,4)
+print(myList)
+myList[1] <- 5
+print(myList)
+myList[5] <-8
+print(myList)
+
+
+
+arr <- c(1,5,3,2)
+arr1 <- c(2)
+x <-4
+for(j in 2:x)
+{
+  #print(j)
+  # arr<-append(arr,j)
+  # arr[1] <- j*j
+  arr1[j] <- arr[j]+arr[j-1]
+}
+
+# arr<-append(arr,1:20)
+print(arr1)
+
+  
+  
+
+myfunction <- function(x)
+{
+  if(x<=0)0
+  else x*x
+}
+
+print(myfunction(-3))
+
+
+mylist3 <- c(0,16)
+mylist4 <- c(sum(mylist3[1:2]))
+print(mylist4)
+
+
+df <- c("id"=c(1,2,3,4,5,6,7), "name"=c("john","jane","albert","simon","david","eli", "kristen") )
+df2 <- data.frame(
+  emp_id = c (1:5), 
+  emp_name = c("Rick","Dan","Michelle","Ryan","Gary"),
+  salary = c(623.3,515.2,611.0,729.0,843.25), 
+  
+  start_date = as.Date(c("2012-01-01", "2013-09-23", "2014-11-15", "2014-05-11",
+                         "2015-03-27")),
+  stringsAsFactors = FALSE
+)

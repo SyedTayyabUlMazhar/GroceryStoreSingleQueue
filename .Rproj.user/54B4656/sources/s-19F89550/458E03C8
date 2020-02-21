@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582176260092.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "0|47|9|0|\n11|50|17|0|\n19|48|21|0|\n23|60|25|0|\n27|50|33|0|\n69|34|71|2|\n74|1|82|0|\n",
+    "hash" : "0",
+    "id" : "458E03C8",
+    "lastKnownWriteTime" : 1582305319,
+    "last_content_update" : 1582305319513,
+    "path" : "/media/tayyab/Data/programmes/R/GroceryStoreSingleQueue/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "152,25",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "126",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
